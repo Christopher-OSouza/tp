@@ -1,0 +1,121 @@
+
+input:required:valid, textarea:required:valid {
+  background-image: url("check.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  }
+
+  input:required:invalid, input:focus:invalid, textarea:required:invalid, textarea:focus:invalid {
+    background-image: url("wrong.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
+    }
+
+
+    .button
+    {
+      background-color: #1E90FF;
+      color: aliceblue;
+      width:12%;
+      font-size:calc(0.5em + 0.6vw) ;
+    }
+
+
+
+
+h1{
+    font-size: calc(1.5em + 1.5vw);
+    text-align: center;
+}
+
+p
+{
+  color: #1E90FF;
+  margin-left: 15%;
+  font-size:calc(0.8em + 1vw) ;
+
+}
+textarea
+{
+  resize: none;
+  width: 85%;
+}
+
+  table
+  {
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+
+
+  }
+
+
+  td,th,table
+  {
+    border-radius: 3px;
+  }
+
+  .td1{
+    background-color: #c0c0c0 ;
+    width:40%;
+    font-size:calc(0.8em + 1vw) ;
+    color: #1E90FF;
+    text-align: left;
+  }
+
+  .td2{
+    background-color: #dcdcdc ;
+    width:60%;
+    font-size:calc(0.2em + 1vw) ;
+  }
+
+
+  .input
+  {
+    width: 85%;
+    vertical-align: middle;
+    margin-right: 5%;
+    margin-bottom: 0.5%;
+  }
+
+  .input2
+  {
+    width: 43.5%;
+    vertical-align: middle;
+    margin-bottom: 0.5%;
+  }
+
+  .input3
+  {
+    width: 25%;
+    vertical-align: middle;
+    margin-right: 5%;
+    margin-bottom: 0.5%;
+  }
+
+
+  
+  .input5
+  {
+    width: 40%;
+    vertical-align: middle;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
+  }
+
+  .radio
+  {
+  
+    vertical-align: middle;
+    margin-bottom: 0.5%;
+  }
+
+  .erro
+  {
+    color: red;
+  }
