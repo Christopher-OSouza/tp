@@ -40,6 +40,7 @@ function Venviar()
 
     if(document.formulario.ingles.value=="0" || document.formulario.espanhol.value=="0")
     {
+		alert("preencher nivel de idioma");
         ver=1;
     }
 
@@ -48,22 +49,21 @@ function Venviar()
         if (document.formulario.linguagem[i].checked)
           b++;
     }
-
     if(b==0)
     {
         if(ver==0)
         {
-        var op = confirm("DESEJA ENVIAR SEM NENHUMA LINGUAGEM?");
-        if (op == false) {
+        var op2 = confirm("DESEJA ENVIAR SEM NENHUMA LINGUAGEM?");
+        if (op2 == false) {
             ver=1;
         }
     }
 
     }
-
     if(ver==0)
     {
         document.formulario.submit();
+		alert("enviado");
     }
 
 
