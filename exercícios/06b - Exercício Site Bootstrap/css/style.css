@@ -1,0 +1,163 @@
+
+body{
+  background-image: url("../img/fundo_1_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+
+}
+
+.retangulo
+{
+  background-color: #1b1b1b;
+   margin-left: 5%;
+    margin-right: 5%;
+     margin-top: 2.5%;
+     margin-bottom:2.5%;
+     border-radius: 5px;
+     padding-top: 2.5%;
+     padding-bottom: 2.5%;
+}
+
+.letrasnav
+{
+  color: #fff;
+  font-size:calc(0.5em + 0.7vw) ;
+  
+}
+
+.letrasfooter
+{
+  color: #fff;
+  font-size:calc(0.5em + 0.5vw) ;
+}
+
+.cor
+{
+  background-color: #1b1b1b;
+}
+
+  .titulo
+  {
+    font-size:calc(1em + 1vw) ;
+    margin-left: 10%;
+    text-align: left;
+    color:white ;
+   
+
+  }
+
+  .titulo2
+  {
+    font-size:calc(0.7em + 1vw) ;
+    margin-left: 10%;
+    text-align: left;
+    color:white ;
+   
+
+  }
+
+  .carrossel
+  {
+    width:50%;
+    margin-left:25%;
+    padding-top:2%;
+    margin-bottom:2%;
+  }
+
+
+
+  .acordeon
+  {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .cartao{
+    background-color: #1b1b1b;
+    box-shadow: inset 0 0 1em gold, 0 0 1em red;
+
+  }
+
+  .descricao
+  {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-right: 10%;
+    color: white;
+    font-size:calc(0.7em + 0.5vw) ;
+  }
+
+  .cartao-corpo
+  {
+    background-color:#ECECEC;
+    text-align: justify;
+  }
+
+  .mapa
+  {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .personagem
+  {
+    font-weight: bold;
+  }
+
+.retrato
+{
+    margin-left: 5%;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+
+  .profile
+  {
+      max-width: 70%;
+      border-radius: 20px;
+  }
+
+
+  .texto
+  {
+    color: white;
+    
+  }
+
+  .texto2
+  {
+    font-family: Georgia;
+    font-size:calc(0.7em + 0.5vw) ;
+    color: white;
+  }
+
+  @media only screen and (max-width: 1000px) 
+{
+
+    .retrato
+{
+     margin-left: 0%;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+    .profile
+    {
+      max-width: 90%;
+    }
+
+    .texto
+    {
+        font-size:calc(0.5em + 0.5vw) ;
+    }
+
+}
